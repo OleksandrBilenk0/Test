@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Test</title>
+</head>
+<body>
+    <!-- Sidebar menu -->
+    <section class="menu">
+
+        <div class="logo">
+            <img src="./images/Group 31.png" alt="Dashboard">
+            <img class="version-icon" src="./images/icon/v.01.svg" alt="v.01">
+        </div>
+
+        <div class="menu-sidebar">
+            <ul class="menu-sidebar--list">
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu.png" alt=""></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (2).png" alt=""></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button__active"><img src="./images/icon/List Menu (3).png" alt=""></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (4).png" alt=""></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (5).png" alt=""></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (6).png" alt=""></button></li>
+            </ul>
+        </div>
+
+        <div class="menu-user">
+            <img class="menu-user--avatar" src="./images/Avatar/Avatar.png" alt="Avatar" >
+            <div class="menu-user--info">
+                <p class="menu-user--name">Evanko</p>
+                <p class="menu-user--position">Project Manager</p>
+            </div>
+        </div>
+    </section>
+    <!-- Sidebar menu  end-->
+
+    <!-- Main menu - customers info -->
+    <section class="customers-title">
+
+        <div class="title-greeting">
+            <img src="./images/Hello Evano 👋🏼,.png" alt="">
+        </div>
+    
+        <section class="customers">
+            <div class="customers-header">
+                <div class="customers-header--title">
+                    <h3 class="customers-header--title__suptitle">All Customers</h3>
+                    <h4 class="customers-header--title__subtitle">Active Members</h4>
+                </div>
+                    <form class="customers-search" action="#">
+                        <img class="customers-search--img" src="./images/icon/search 1.svg" alt="">
+                        <input class="customers-search--input" type="text" placeholder="Search" name="search">
+                    </form>
+                </div>
+            </div>
+            <!-- Info about customers -->
+            <table class="customers-info">
+                <!-- Customers-info--header -->
+                <tr class="customers-info--header">
+                    <td class="customers-header--item">Customer Name</td>
+                    <td class="customers-header--item">Company</td>
+                    <td class="customers-header--item">Phone Number</td>
+                    <td class="customers-header--item">Email</td>
+                    <td class="customers-header--item">Country</td>
+                    <td class="customers-header--item">Status</td>  
+                </tr>
+                <!-- Customers-info--main -->
+                <tr class="customers-info--main">
+                    <td class="customers-main--item">Jane Cooper</td>
+                    <td class="customers-main--item">Microsoft</td>
+                    <td class="customers-main--item">(225) 555-0118</td>
+                    <td class="customers-main--item">jane@microsoft.com</td>
+                    <td class="customers-main--item">United States</td>
+                    <td class="customers-main--item"><div class="customers-main--item__activ">Active</div></td>   
+                </tr>
+
+                <tr class="customers-info--main">
+                    <td class="customers-main--item">Floyd Miles</td>
+                    <td class="customers-main--item">Yahoo</td>
+                    <td class="customers-main--item">(205) 555-0100</td>
+                    <td class="customers-main--item">floyd@yahoo.com</td>
+                    <td class="customers-main--item">Kiribati</td>
+                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inctive</div></td>   
+                </tr>
+
+                <tr class="customers-info--main">
+                    <td class="customers-main--item">Ronald Richards</td>
+                    <td class="customers-main--item">Adobe</td>
+                    <td class="customers-main--item">(302) 555-0107</td>
+                    <td class="customers-main--item">ronald@adobe.com</td>
+                    <td class="customers-main--item">Israel</td>
+                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inctive</div></td>   
+                </tr>
+
+                <tr class="customers-info--main">
+                    <td class="customers-main--item">Marvin McKinney</td>
+                    <td class="customers-main--item">Tesla</td>
+                    <td class="customers-main--item">(252) 555-0126</td>
+                    <td class="customers-main--item">marvin@tesla.com</td>
+                    <td class="customers-main--item">Iran</td>
+                    <td class="customers-main--item"><div class="customers-main--item__activ">Active</div></td>   
+                </tr>
+
+                <tr class="customers-info--main">
+                    <td class="customers-main--item">Jerome Bell</td>
+                    <td class="customers-main--item">Google</td>
+                    <td class="customers-main--item">(629) 555-0129</td>
+                    <td class="customers-main--item">jerome@google.com</td>
+                    <td class="customers-main--item">Réunion</td>
+                    <td class="customers-main--item"><div class="customers-main--item__activ">Active</div></td>   
+                </tr>
+
+                <tr class="customers-info--main">
+                    <td class="customers-main--item">Kathryn Murphy</td>
+                    <td class="customers-main--item">Microsoft</td>
+                    <td class="customers-main--item">(406) 555-0120</td>
+                    <td class="customers-main--item">kathryn@microsoft.com</td>
+                    <td class="customers-main--item">Curaçao</td>
+                    <td class="customers-main--item"><div class="customers-main--item__activ">Active</div></td>   
+                </tr>
+
+                <tr class="customers-info--main">
+                    <td class="customers-main--item">Jacob Jones</td>
+                    <td class="customers-main--item">Yahoo</td>
+                    <td class="customers-main--item">(208) 555-0112</td>
+                    <td class="customers-main--item">jacob@yahoo.com</td>
+                    <td class="customers-main--item">Brazil</td>
+                    <td class="customers-main--item"><div class="customers-main--item__activ">Active</div></td>   
+                </tr>
+
+                <tr class="customers-info--main">
+                    <td class="customers-main--item">Kristin Watson</td>
+                    <td class="customers-main--item">Facebook</td>
+                    <td class="customers-main--item">(704) 555-0127</td>
+                    <td class="customers-main--item">kristin@facebook.com</td>
+                    <td class="customers-main--item">Åland Islands</td>
+                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inctive</div></td>   
+                </tr>
+            </table>
+            <!-- Customers-info--main end -->
+
+            <!-- Customers-footer -->
+            <div class="customers-footer">
+                <div class="customers-footer--data">
+                    <p class="customers-footer--data__item">Showing data 1 to 8 of  256K entries</p>
+                </div>
+                <div class="customers-footer--pagination">
+                    <button class="customers-footer--button"><a href="#"><img src="./images/table_footer_icon/Frame 298.svg" alt="<"></a></button>
+                    <button class="customers-footer--button__active"><a href="#"><img src="./images/table_footer_icon/Frame 292.svg" alt="1"></a></button>
+                    <button class="customers-footer--button"><a href="#"><img src="./images/table_footer_icon/Frame 293.svg" alt="2"></a></button>
+                    <button class="customers-footer--button"><a href="#"><img src="./images/table_footer_icon/Frame 294.svg" alt="3"></a></button>
+                    <button class="customers-footer--button"><a href="#"><img src="./images/table_footer_icon/Frame 295.svg" alt="4"></a></button>
+                    <button class="customers-footer--button"><a href="#"><img src="./images/table_footer_icon/svg.svg" alt="..."></a></button>
+                    <button class="customers-footer--button"><a href="#"><img src="./images/table_footer_icon/Frame 296.svg" alt="40"></a></button>
+                    <button class="customers-footer--button"><a href="#"><img src="./images/table_footer_icon/Frame 297.svg" alt=">"></a></button>
+                </div>
+            </div>
+            <!-- Customers-footer end -->
+        </section>
+    </section>
+    <!-- Main menu - customers info end-->
+</body>
+</html>

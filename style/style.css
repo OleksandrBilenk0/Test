@@ -1,0 +1,248 @@
+body {
+    width: 1440px;
+    height: 1198px;
+    background-color: #FAFBFF;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.01em;
+    overflow-y: scroll;
+}
+
+/* Sidebar menu */
+.menu {
+    width: 283px;
+    height: 1198px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding-left: 28px;
+    padding-right: 5px;
+}
+
+.logo {
+    width: 217px;
+    height: 39px;
+    margin-top: 36px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.version-icon {
+    width: 18px;
+    height: 15px;
+    margin-bottom: 6px;
+}
+
+.menu-sidebar {
+    width: 255px;
+    height: 344px;
+    padding-left: 11px;
+}
+
+.menu-sidebar--list {
+    width: 255px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu--button__active {
+    width: 250px;
+    height: 46px;
+    margin-left: -11px;
+    background-color: #5932EA;
+    border-radius: 8px;
+}
+
+.menu-user {
+    width: 155px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 597px;
+}
+
+.menu-user--info {
+    width: 101px;
+    height: 38px;
+}
+
+.menu-user--name {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+
+.menu-user--position {
+    font-weight: 400;
+    font-size: 12px;
+    color: #757575;
+}
+/* Sidebar menu */
+
+/* Main menu - customers info */
+.customers-title {
+    margin-top: 36px;
+    margin-left: 94px;
+}
+
+.customers {
+    position: relative;
+    width: 968px;
+    height: 812px;
+    margin-top: 51px;
+    padding-top: 30px;
+    padding-left: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 30px;
+}
+
+.customers-header{
+    width: 877px;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.customers-header--title {
+    width: 155px;
+    height: 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.customers-header--title__suptitle {
+    font-weight: 600;
+    font-size: 22px;   
+    color: #000000;
+}
+
+.customers-header--title__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #16C098;
+    
+}
+
+.customers-search {
+    width: 216px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    background-color: #F9FBFF;
+    border-radius: 10px;
+}
+
+.customers-search--img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.customers-search--input {
+    background-color: #F9FBFF;
+}
+
+::placeholder {
+    color: #B5B7C0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* Info about customers */
+.customers-info {
+    width: 886px;
+    height: 587px;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+/* Customers-info--header */
+.customers-info--header{
+    width: 863px;
+    height: 21px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.customers-header--item {
+    font-weight: 500;
+    font-size: 14px;
+    color: #B5B7C0;
+}
+
+/* Customers-info--main */
+.customers-info--main {
+    font-weight: 500;
+    font-size: 14px;
+    color: #292D32;
+    border-bottom: 1px solid #EEEEEE;
+
+}
+
+.customers-main--item {
+    height: 29px;
+}
+
+.customers-main--item__activ {
+    width: 80px;
+    height: 29px;
+    background: rgba(22, 192, 152, 0.38);
+    border: 1px solid #00B087;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.customers-main--item__inactiv {
+    width: 80px;
+    height: 29px;
+    background: #FFC5C5;
+    border: 1px solid #DF0404;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* Customers-info--main end */
+
+/* Customers-footer */
+.customers-footer{
+    width: 888px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.customers-footer--data {
+    width: 243px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+}
+.customers-footer--data__item {
+    font-weight: 500;
+    font-size: 14px;
+    color: #B5B7C0;
+}
+
+.customers-footer--pagination {
+    width: 271px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Main menu - customers info end */
