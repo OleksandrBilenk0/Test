@@ -1,0 +1,29 @@
+@media (max-width: 320px) {
+    body {
+        width: 320px;
+        height: 950px;
+        background: fixed;
+    }
+    .menu-sidebar {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .logo {
+        display: none;
+    }
+
+    .version-icon {
+        display: none;
+    }
+    .title-greeting {
+        padding-left: 38px;
+    }
+    .customers-info {
+        overflow-x: auto;
+    }
+}

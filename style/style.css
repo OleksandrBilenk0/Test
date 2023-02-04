@@ -18,6 +18,9 @@ body {
     padding-left: 28px;
     padding-right: 5px;
 }
+.hamburger-menu {
+    display: none;
+}
 
 .logo {
     width: 217px;
@@ -91,7 +94,6 @@ body {
 }
 
 .customers {
-    position: relative;
     width: 968px;
     height: 812px;
     margin-top: 51px;

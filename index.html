@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/burger.css">
+    <link rel="stylesheet" href="./style/media.css">
     <title>Test</title>
 </head>
 <body>
@@ -22,12 +24,12 @@
 
         <div class="menu-sidebar">
             <ul class="menu-sidebar--list">
-                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu.png" alt=""></button></li>
-                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (2).png" alt=""></button></li>
-                <li class="menu-sidebar--list__item"><button class="menu--button__active"><img src="./images/icon/List Menu (3).png" alt=""></button></li>
-                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (4).png" alt=""></button></li>
-                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (5).png" alt=""></button></li>
-                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (6).png" alt=""></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu.png" alt="Dashboard"></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (2).png" alt="Produkt"></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button__active"><img src="./images/icon/List Menu (3).png" alt="Customers"></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (4).png" alt="Income"></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (5).png" alt="Promote"></button></li>
+                <li class="menu-sidebar--list__item"><button class="menu--button"><img src="./images/icon/List Menu (6).png" alt="Help"></button></li>
             </ul>
         </div>
 
@@ -41,11 +43,27 @@
     </section>
     <!-- Sidebar menu  end-->
 
+    <!-- Burger menu -->
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+        <ul class="menu__box">
+            <li><a class="menu__item" href="#"><img src="./images/icon/List Menu (2).png" alt=""></a></li>
+            <li><a class="menu__item--active" href="#"><img src="./images/icon/List Menu (3).png" alt=""></a></li>
+            <li><a class="menu__item" href="#"><img src="./images/icon/List Menu (4).png" alt=""></a></li>
+            <li><a class="menu__item" href="#"><img src="./images/icon/List Menu (5).png" alt=""></a></li>
+            <li><a class="menu__item" href="#"><img src="./images/icon/List Menu (6).png" alt=""></a></li>
+        </ul>
+    </div>
+    <!-- Burger menu end-->
+
     <!-- Main menu - customers info -->
     <section class="customers-title">
 
         <div class="title-greeting">
-            <img src="./images/Hello Evano 👋🏼,.png" alt="">
+            <img src="./images/Hello Evano 👋🏼,.png" alt="Hello Evano">
         </div>
     
         <section class="customers">
@@ -55,7 +73,7 @@
                     <h4 class="customers-header--title__subtitle">Active Members</h4>
                 </div>
                     <form class="customers-search" action="#">
-                        <img class="customers-search--img" src="./images/icon/search 1.svg" alt="">
+                        <img class="customers-search--img" src="./images/icon/search 1.svg" alt="Loupe">
                         <input class="customers-search--input" type="text" placeholder="Search" name="search">
                     </form>
                 </div>
@@ -87,7 +105,7 @@
                     <td class="customers-main--item">(205) 555-0100</td>
                     <td class="customers-main--item">floyd@yahoo.com</td>
                     <td class="customers-main--item">Kiribati</td>
-                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inctive</div></td>   
+                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inactive</div></td>   
                 </tr>
 
                 <tr class="customers-info--main">
@@ -96,7 +114,7 @@
                     <td class="customers-main--item">(302) 555-0107</td>
                     <td class="customers-main--item">ronald@adobe.com</td>
                     <td class="customers-main--item">Israel</td>
-                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inctive</div></td>   
+                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inactive</div></td>   
                 </tr>
 
                 <tr class="customers-info--main">
@@ -141,7 +159,7 @@
                     <td class="customers-main--item">(704) 555-0127</td>
                     <td class="customers-main--item">kristin@facebook.com</td>
                     <td class="customers-main--item">Åland Islands</td>
-                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inctive</div></td>   
+                    <td class="customers-main--item"><div class="customers-main--item__inactiv">Inactive</div></td>   
                 </tr>
             </table>
             <!-- Customers-info--main end -->
@@ -165,6 +183,6 @@
             <!-- Customers-footer end -->
         </section>
     </section>
-    <!-- Main menu - customers info end-->
+    <!-- Main menu - customers info end -->
 </body>
 </html>
