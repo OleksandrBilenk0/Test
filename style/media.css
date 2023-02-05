@@ -1,9 +1,8 @@
 @media (max-width: 700px) {
     body {
         width: 340px;
-        height: 800px;
-        letter-spacing: -0.05em;
-
+        height: auto;
+        letter-spacing: -0.03em;
     }
     /* Sidebar menu */
     .menu {
@@ -72,17 +71,22 @@
     }
 
     .customers-main--item__activ {
-        width: 50px;
+        width: 40px;
         height: 25px;
+        font-size: 10px;
     }
 
     .customers-main--item__inactiv {
-        width: 50px;
+        width: 40px;
         height: 25px;
+        font-size: 10px;
     }
 
     /* Customers-footer */
     .customers-footer{
         width: 460px;
+    }
+    .customers-footer--data__item {
+        font-size: 10px;
     }
 }
