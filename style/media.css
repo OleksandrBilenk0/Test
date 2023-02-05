@@ -1,28 +1,88 @@
-@media (max-width: 375px) {
-    /* body {
-        width: 100%;
-        height: 950px;
-    } */
-    .menu-sidebar {
-        display: none;
+@media (max-width: 700px) {
+    body {
+        width: 340px;
+        height: 800px;
+        letter-spacing: -0.09em;
+
     }
+    /* Sidebar menu */
     .menu {
         display: none;
-    }
-    .hamburger-menu {
-        display: block;
     }
     .logo {
         display: none;
     }
-
     .version-icon {
         display: none;
     }
-    .title-greeting {
-        padding-left: 38px;
+    .menu-sidebar {
+        display: none;
     }
+
+    /* Burger */
+    .hamburger-menu {
+        display: block;
+    }
+    
+    /* Main menu - customers info */
+    .customers-title {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .title-greeting {
+        padding-left: 120px;
+    }
+    .customers {
+        width: 500px;
+        height: 512px;
+        margin-top: 20px;
+        padding-top: 0;
+        padding-left: 8px;
+    }
+    .customers-header{
+        width: 470px;
+        height: 61px;
+    }
+    .customers-header--title__suptitle {
+        font-weight: 500;
+        font-size: 16px;   
+    }
+    .customers-header--title__subtitle {
+        font-weight: 300;
+        font-size: 10px;
+    }
+
+    /* Info about customers */
     .customers-info {
         overflow-x: auto;
+        width: 486px;
+        height: 370px;
+        margin-top: 20px;
+    }
+
+    .customers-header--item {
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    /* Customers-info--main */
+    .customers-info--main {
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .customers-main--item__activ {
+        width: 50px;
+        height: 25px;
+    }
+
+    .customers-main--item__inactiv {
+        width: 50px;
+        height: 25px;
+    }
+
+    /* Customers-footer */
+    .customers-footer{
+        width: 460px;
     }
 }
